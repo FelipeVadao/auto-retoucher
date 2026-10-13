@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Runtime data (user uploads, analysis history, sample/test photos)
+uploads/
+history/
+images/
+
+# macOS zip extraction artifacts
+__MACOSX/
+.DS_Store
+

@@ -1,0 +1,29 @@
+[project]
+name = "auto-retoucher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Felipe Vadao", email = "felipeconceicaopc@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=3.1.2",
+    "anthropic>=1.13.0",
+    "fal-client>=1.0.3",
+    "fastapi>=0.143.0",
+    "filetype>=1.2.0",
+    "google-genai>=2.29.0",
+    "moondream>=2.6.1",
+    "pillow>=12.3.0",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.32",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+auto-retoucher = "auto_retoucher:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
